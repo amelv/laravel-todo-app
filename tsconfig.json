@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "strict": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true,
+        "importHelpers": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "resources/*"
+            ]
+        }
+    },
+    "include": [
+        "resources/scripts/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "vendor"
+    ]
+}

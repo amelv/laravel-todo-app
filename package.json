@@ -1,14 +1,48 @@
 {
     "private": true,
+    "dependencies": {
+        "@quasar/extras": "^1.15.5",
+        "@quasar/vite-plugin": "^1.2.3",
+        "@tailwindcss/typography": "^0.5.7",
+        "@tanstack/vue-query": "^4.14.3",
+        "@types/lodash": "^4.14.188",
+        "@types/vue": "^2.0.0",
+        "@vitejs/plugin-vue": "^3.2.0",
+        "@vue/compiler-sfc": "^3.2.41",
+        "autoprefixer": "^10.4.13",
+        "axios": "^1.1.3",
+        "bootstrap": "^5.2.2",
+        "bootstrap-vue": "^2.23.1",
+        "concurrently": "^7.5.0",
+        "cross-env": "^7.0.3",
+        "laravel-mix": "^6.0.49",
+        "mix-tailwindcss": "^1.3.0",
+        "pinia": "^2.0.23",
+        "postcss-import": "^15.0.0",
+        "process": "^0.11.10",
+        "quasar": "^2.10.1",
+        "sass": "^1.56.0",
+        "tailwindcss": "^3.2.2",
+        "typescript": "^4.8.4",
+        "vue": "^3.2.41",
+        "vue-loader": "^17.0.1",
+        "vue-router": "^4.1.6",
+        "webpack-env": "^0.8.0"
+    },
+    "name": "client",
+    "version": "3",
+    "description": "client",
+    "main": "yes",
+    "repository": "yes",
+    "author": "amelv <amelv@protonmail.com>",
+    "license": "MIT",
     "scripts": {
         "dev": "vite",
         "build": "vite build"
     },
     "devDependencies": {
-        "axios": "^1.1.2",
-        "laravel-vite-plugin": "^0.6.0",
-        "lodash": "^4.17.19",
-        "postcss": "^8.1.14",
-        "vite": "^3.0.0"
+        "postcss": "^8.4.18",
+        "vite": "^3.2.2",
+        "vite-plugin-laravel": "^0.2.2"
     }
 }
